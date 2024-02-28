@@ -46,6 +46,14 @@
 						</div>
 					</section>
 
+				<!-- Image Slider Section -->
+					<section id="image-slider-section" class="wrapper style2 spotlights">
+   						 <div class="inner">
+        						<img src="images/Slider_Images/animal.jpg" id="slider-image" alt="Slider Image" />
+   						 </div>
+					</section>
+
+
 <!-- 				<section id="atlas" class="wrapper style2 spotlights">
 					<div class="inner">
 						<img src="images/tractography_high_res_upload.jpg" alt="Tractography" style="max-width:1050px; height:auto;">
@@ -208,6 +216,25 @@
 					</ul>
 				</div>
 			</footer>
+
+			<script>
+    				var images = [
+        				"images/Slider_Images/animal.jpg", 
+       					"images/Slider_Images/clinical.jpg", 
+        				"images/Slider_Images/connect.jpg", 
+					"images/Slider_Images/dmri.jpg", 
+					"images/Slider_Images/pmri.jpg"
+				];
+    				var currentIndex = 0;
+    				setInterval(function() {
+        				currentIndex++;
+        				if (currentIndex >= images.length) {
+            					currentIndex = 0;
+        				}
+        				document.getElementById('slider-image').src = images[currentIndex];
+    				}, 2000); // Change image every 2000 milliseconds (2 seconds)
+			</script>
+
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

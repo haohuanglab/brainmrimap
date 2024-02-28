@@ -3911,14 +3911,14 @@ input, select, textarea {
 
 
 		#image-slider {
-    			width: 100%; /* Adjust the width as per your requirement */
+    			width: 1000%; /* Adjust the width as per your requirement */
     			height: auto; /* Adjust the height as per your requirement */
    			overflow: hidden; /* Ensures nothing protrudes outside the container */
     			position: relative; /* For positioning inner elements */
 			}
 
 		#image-slider img {
-   			width: 100%; /* Images will take up full container width */
+   			width: 1000%; /* Images will take up full container width */
     			height: auto; /* Maintain aspect ratio */
     			display: block; /* Removes any inline spacing */
 			}

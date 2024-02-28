@@ -3911,14 +3911,15 @@ input, select, textarea {
 
 
 		#image-slider {
-    			width: 100%; /* Adjust the width as per your requirement */
-    			height: auto; /* Adjust the height as per your requirement */
-   			overflow: hidden; /* Ensures nothing protrudes outside the container */
-    			position: relative; /* For positioning inner elements */
+    			width: 100%; /* Full width of the parent element */
+   			height: auto; /* Adjust height as needed, or set a specific height */
+    			margin: 0; /* Adjust or remove margin as needed */
+    			padding: 0; /* Adjust or remove padding as needed */
 			}
 
-		#image-slider img {
-   			width: 1000%; /* Images will take up full container width */
-    			height: auto; /* Maintain aspect ratio */
-    			display: block; /* Removes any inline spacing */
-			}
+	        #image-slider img {
+    			width: 100%; /* Full width of the container */
+    			height: auto; /* Adjust to maintain aspect ratio or set specific height */
+   			display: block; /* Remove any inline spacing */
+}
+

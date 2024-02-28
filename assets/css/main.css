@@ -3911,7 +3911,7 @@ input, select, textarea {
 
 
 		#image-slider {
-    			width: 1000%; /* Adjust the width as per your requirement */
+    			width: 100%; /* Adjust the width as per your requirement */
     			height: auto; /* Adjust the height as per your requirement */
    			overflow: hidden; /* Ensures nothing protrudes outside the container */
     			position: relative; /* For positioning inner elements */

@@ -3910,16 +3910,16 @@ input, select, textarea {
 
 
 
-/* 		#image-slider { */
-/*     			width: 100%; /* Full width of the parent element */ 
-/*    			height: auto; /* Adjust height as needed, or set a specific height */ 
-/*     			margin: 0; /* Adjust or remove margin as needed */ 
-/*     			padding: 0; /* Adjust or remove padding as needed  */
-/* 			} */
+		#image-slider {
+    			width: 100%;  
+   			height: auto; 
+			margin: 0; 
+     			padding: 0; 
+			}
 
-/* 	        #image-slider img { */
-/*     			width: 100%; /* Full width of the container  */
-/*     			height: auto; /* Adjust to maintain aspect ratio or set specific height  */
-/*    			display: block; /* Remove any inline spacing  */
-/* } */
+	        #image-slider img {
+  			width: 100%;
+			height: auto; /* Adjust to maintain aspect ratio or set specific height  */
+			display: block; /* Remove any inline spacing  */
+}
 
